@@ -1,0 +1,6 @@
+docker exec -it postgres bash - to execute the get into the container in the terminal with the name of the server being postgres
+docker logs postgres -f - to log all of the logs in the docker and follow
+
+psql -U spring - to enter the same server with the spring being the username , sntr+d to exit the terminal
+\l list all the tables in the sql terminal
+\c tablename to connect to a specific tablename
